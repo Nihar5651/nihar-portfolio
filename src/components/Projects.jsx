@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section id="projects" style={{ padding: "20px 0px" }}>
+    <section id="projects" >
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Projects
       </h2>
@@ -11,12 +11,12 @@ function Projects() {
           Python, Computer Vision, Speech Recognition, NLP
         </p>
 
-        <ul>
-          <li>Hand gesture control system.</li>
-          <li>Eye tracking functionality.</li>
-          <li>Speech command recognition.</li>
-          <li>Touchless device control.</li>
-        </ul>
+      <ul style={{ paddingLeft: "20px" }}>
+  <li>Hand gesture control system.</li>
+  <li>Eye tracking functionality.</li>
+  <li>Speech command recognition.</li>
+  <li>Touchless device control.</li>
+</ul>
       </div>
 
       <div style={{ marginBottom: "40px" }}>

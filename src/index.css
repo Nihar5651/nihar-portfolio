@@ -14,14 +14,16 @@ html{
 body{
   background:#020617;
   color:white;
+  overflow-x:hidden;
 }
 
 a{
   text-decoration:none;
+  color:white;
 }
 
 section{
-  padding: 50px 8%;
+  padding:50px 8%;
 }
 
 .container{
@@ -35,6 +37,7 @@ h1{
 
 h2{
   font-size:38px;
+  margin-bottom:20px;
 }
 
 h3{
@@ -46,6 +49,15 @@ p{
   color:#d1d5db;
 }
 
+ul{
+  padding-left:20px;
+  line-height:1.8;
+}
+
+li{
+  color:#d1d5db;
+}
+
 button{
   transition:0.3s;
 }
@@ -54,10 +66,15 @@ button:hover{
   transform:translateY(-3px);
 }
 
+img{
+  max-width:100%;
+  height:auto;
+}
+
 @media (max-width:992px){
 
   section{
-    padding:70px 7%;
+    padding:40px 6%;
   }
 
   h1{
@@ -70,8 +87,9 @@ button:hover{
 }
 
 @media (max-width:768px){
+
   section{
-    padding:20px 15px;
+    padding:25px 20px;
   }
 
   h1{
@@ -84,6 +102,29 @@ button:hover{
 
   h3{
     font-size:18px;
+  }
+
+  p{
+    font-size:14px;
+  }
+}
+
+@media (max-width:480px){
+
+  section{
+    padding:20px 15px;
+  }
+
+  h1{
+    font-size:30px;
+  }
+
+  h2{
+    font-size:22px;
+  }
+
+  h3{
+    font-size:17px;
   }
 
   p{

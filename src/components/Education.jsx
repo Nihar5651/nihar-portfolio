@@ -1,6 +1,6 @@
 function Education() {
   return (
-    <section id="education" style={{ padding: "20px 0px" }}>
+    <section id="education" >
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Education
       </h2>

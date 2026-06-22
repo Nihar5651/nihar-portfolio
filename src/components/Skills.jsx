@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <section id="skills" style={{ padding: "20px 0px" }}>
+    <section id="skills" >
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Technical Skills
       </h2>

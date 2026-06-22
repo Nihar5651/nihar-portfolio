@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" style={{ padding: "20px 0px" }}>
+    <section id="contact" >
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Contact Me
       </h2>
