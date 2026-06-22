@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       style={{
-        paddingTop: "60px",
+        paddingTop: "70px",
 paddingBottom: "20px",
     display: "flex",
     alignItems: "center"
@@ -28,7 +28,7 @@ paddingBottom: "20px",
           Nihar Navadiya
         </h1>
 
-        <h2 style={{ marginBottom: "15px" }}>
+        <h2 style={{ marginBottom: "10px" }}>
           B.Tech CSE Student
         </h2>
 
