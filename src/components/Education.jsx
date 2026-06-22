@@ -1,11 +1,11 @@
 function Education() {
   return (
-    <section style={{ padding: "80px 0px" }}>
+    <section id="education" style={{ padding: "20px 0px" }}>
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Education
       </h2>
 
-      <div style={{ marginBottom: "30px" }}>
+      <div style={{ marginBottom: "20px" }}>
         <h3>Gyanmanjari Innovative University</h3>
         <p>B.Tech Computer Science Engineering</p>
         <p>7th Semester</p>

@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section id="projects" style={{ padding: "80px 0px" }}>
+    <section id="projects" style={{ padding: "20px 0px" }}>
       <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
         Projects
       </h2>

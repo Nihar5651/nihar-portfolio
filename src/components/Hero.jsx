@@ -4,10 +4,10 @@ function Hero() {
   return (
     <section
       style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        paddingTop: "100px"
+        paddingTop: "60px",
+paddingBottom: "20px",
+    display: "flex",
+    alignItems: "center"
       }}
     >
       <motion.div

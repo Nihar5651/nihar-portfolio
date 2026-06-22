@@ -21,7 +21,7 @@ a{
 }
 
 section{
-  padding:80px 10%;
+  padding: 50px 8%;
 }
 
 .container{
@@ -70,39 +70,23 @@ button:hover{
 }
 
 @media (max-width:768px){
-
   section{
-    padding:60px 25px;
+    padding:20px 15px;
   }
 
   h1{
-    font-size:38px;
-  }
-
-  h2{
-    font-size:28px;
-  }
-
-  h3{
-    font-size:20px;
-  }
-
-  p{
-    font-size:15px;
-  }
-}
-
-@media (max-width:480px){
-
-  section{
-    padding:50px 20px;
-  }
-
-  h1{
-    font-size:32px;
+    font-size:34px;
   }
 
   h2{
     font-size:24px;
+  }
+
+  h3{
+    font-size:18px;
+  }
+
+  p{
+    font-size:14px;
   }
 }
