@@ -5,7 +5,14 @@ function Projects() {
         Projects
       </h2>
 
-      <div style={{ marginBottom: "40px" }}>
+      <div
+  style={{
+    background: "#0f172a",
+    padding: "20px",
+    borderRadius: "15px",
+    marginBottom: "20px"
+  }}
+>
         <h3>AI Device Control System</h3>
         <p>
           Python, Computer Vision, Speech Recognition, NLP

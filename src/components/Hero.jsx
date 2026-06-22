@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
@@ -31,14 +32,24 @@ paddingBottom: "20px",
           B.Tech CSE Student
         </h2>
 
-        <h3
-          style={{
-            color: "#94a3b8",
-            marginBottom: "20px"
-          }}
-        >
-          Python Developer | Data Analyst | AI Enthusiast
-        </h3>
+      <TypeAnimation
+  sequence={[
+    "Python Developer",
+    2000,
+    "Data Analyst",
+    2000,
+    "AI Enthusiast",
+    2000,
+  ]}
+  wrapper="h3"
+  speed={50}
+  repeat={Infinity}
+  style={{
+    color: "#94a3b8",
+    marginBottom: "20px",
+    minHeight: "35px"
+  }}
+/>
 
         <p>
           7th Semester Computer Science student at

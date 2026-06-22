@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <footer
@@ -28,7 +29,25 @@ function Footer() {
         Python Developer <br />
         AI Enthusiast
       </p>
+        <div style={{ marginTop: "20px" }}>
+  <a
+    href="https://github.com/Nihar5651"
+    target="_blank"
+    rel="noreferrer"
+    style={{ marginRight: "20px", color: "white" }}
+  >
+    <FaGithub size={30} />
+  </a>
 
+  <a
+    href="https://www.linkedin.com/in/niharnavdiya"
+    target="_blank"
+    rel="noreferrer"
+    style={{ color: "white" }}
+  >
+    <FaLinkedin size={30} />
+  </a>
+</div>
       <p
         style={{
           fontSize: "14px",
