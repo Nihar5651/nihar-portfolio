@@ -5,12 +5,14 @@ function Certifications() {
         Certifications
       </h2>
 
-      <ul>
-        <li>Python Programming</li>
-        <li>Data Analytics</li>
-        <li>Software Engineering</li>
-        <li>Artificial Intelligence Basics</li>
-      </ul>
+      <div className="card">
+        <ul>
+          <li>Python Programming.</li>
+          <li>Data Analytics.</li>
+          <li>Software Engineering.</li>
+          <li>Artificial Intelligence Fundamentals.</li>
+        </ul>
+      </div>
     </section>
   );
 }

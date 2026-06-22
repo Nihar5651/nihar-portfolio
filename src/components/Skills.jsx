@@ -1,20 +1,38 @@
 function Skills() {
   return (
-    <section id="skills" >
-      <h2 style={{ color: "#3b82f6", marginBottom: "30px" }}>
+    <section id="skills">
+      <h2 style={{ color: "#3b82f6" }}>
         Technical Skills
       </h2>
 
-      <div style={{ lineHeight: "35px", fontSize: "18px" }}>
-        <p><strong>Programming:</strong> Java, Python, JavaScript</p>
+      <div className="card">
+        <p>Python</p>
+        <progress value="90" max="100" style={{ width: "100%" }}></progress>
 
-        <p><strong>Frontend:</strong> HTML5, CSS3, Bootstrap, Responsive Web Design</p>
+        <br /><br />
 
-        <p><strong>AI Technologies:</strong> Computer Vision, NLP, Speech Recognition, Eye Tracking</p>
+        <p>Java</p>
+        <progress value="80" max="100" style={{ width: "100%" }}></progress>
 
-        <p><strong>Tools:</strong> Git, GitHub, VS Code, Google Maps API</p>
+        <br /><br />
 
-        <p><strong>Core Subjects:</strong> OOP, DBMS, Software Engineering, Testing, Debugging</p>
+        <p>JavaScript</p>
+        <progress value="75" max="100" style={{ width: "100%" }}></progress>
+
+        <br /><br />
+
+        <p>React JS</p>
+        <progress value="70" max="100" style={{ width: "100%" }}></progress>
+
+        <br /><br />
+
+        <p>HTML & CSS</p>
+        <progress value="85" max="100" style={{ width: "100%" }}></progress>
+
+        <br /><br />
+
+        <p>Git & GitHub</p>
+        <progress value="80" max="100" style={{ width: "100%" }}></progress>
       </div>
     </section>
   );

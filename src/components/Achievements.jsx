@@ -5,12 +5,15 @@ function Achievements() {
         Achievements
       </h2>
 
-      <ul>
-        <li>CGPA 7.56 in B.Tech CSE.</li>
-        <li>Developed AI Device Control System.</li>
-        <li>Built Invoice Management Software.</li>
-        <li>Developed Stock Prediction Software.</li>
-      </ul>
+      <div className="card">
+        <ul>
+          <li>CGPA 7.56 in B.Tech CSE.</li>
+          <li>Built AI Device Control System.</li>
+          <li>Developed Invoice Automation Software.</li>
+          <li>Developed Stock Prediction Software.</li>
+          <li>Created Full Stack Portfolio Website.</li>
+        </ul>
+      </div>
     </section>
   );
 }
