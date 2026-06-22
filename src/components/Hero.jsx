@@ -4,70 +4,68 @@ function Hero() {
   return (
     <section
       style={{
-        height: "100vh",
+        minHeight: "100vh",
         display: "flex",
         alignItems: "center",
+        paddingTop: "100px"
       }}
     >
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
+        style={{
+          maxWidth: "700px"
+        }}
       >
         <h1
           style={{
-            fontSize: "60px",
-            color: "#3b82f6"
+            color: "#3b82f6",
+            marginBottom: "10px"
           }}
         >
           Nihar Navadiya
         </h1>
 
-        <h2 style={{ marginTop: "10px" }}>
+        <h2 style={{ marginBottom: "15px" }}>
           B.Tech CSE Student
         </h2>
 
-        <h3 style={{ marginTop: "15px" }}>
-          Python Developer | Data Analyst |
-          AI Enthusiast
-        </h3>
-
-        <p
+        <h3
           style={{
-            marginTop: "20px",
-            maxWidth: "600px"
+            color: "#94a3b8",
+            marginBottom: "20px"
           }}
         >
-          7th Semester Computer Science student
-          at Gyanmanjari Innovative University.
+          Python Developer | Data Analyst | AI Enthusiast
+        </h3>
+
+        <p>
+          7th Semester Computer Science student at
+          Gyanmanjari Innovative University.
           Passionate about AI, Data Analytics,
-          Stock Market Prediction and Software
-          Development.
+          Stock Market Prediction and Software Development.
         </p>
 
-       <a
-  href="https://www.linkedin.com/in/niharnavdiya"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    textDecoration: "none"
-  }}
->
-  <button
-    style={{
-      marginTop: "30px",
-      padding: "12px 25px",
-      background: "#3b82f6",
-      color: "white",
-      border: "none",
-      borderRadius: "10px",
-      cursor: "pointer",
-      fontSize: "16px"
-    }}
-  >
-    View LinkedIn Profile
-  </button>
-</a>
+        <a
+          href="https://www.linkedin.com/in/niharnavdiya"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            style={{
+              marginTop: "30px",
+              padding: "14px 30px",
+              background: "#3b82f6",
+              color: "white",
+              border: "none",
+              borderRadius: "10px",
+              cursor: "pointer"
+            }}
+          >
+            View LinkedIn Profile
+          </button>
+        </a>
       </motion.div>
     </section>
   );

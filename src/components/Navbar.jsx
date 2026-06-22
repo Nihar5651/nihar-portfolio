@@ -5,20 +5,28 @@ function Navbar() {
     <nav
       style={{
         position: "fixed",
-        width: "100%",
         top: 0,
+        width: "100%",
         background: "#0f172a",
-        padding: "20px 10%",
+        padding: "20px 7%",
         display: "flex",
         justifyContent: "space-between",
-        zIndex: 1000
+        alignItems: "center",
+        zIndex: 1000,
+        flexWrap: "wrap"
       }}
     >
       <h2 style={{ color: "#3b82f6" }}>
-        Nihar Navadiya
+        Nihar
       </h2>
 
-      <div style={{ display: "flex", gap: "20px" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: "20px",
+          flexWrap: "wrap"
+        }}
+      >
         <Link to="about" smooth={true}>
           About
         </Link>

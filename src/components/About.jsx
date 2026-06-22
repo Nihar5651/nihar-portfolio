@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about">
+    <section id="about" style={{ paddingTop: "20px" }}>
       <h2
         style={{
           color: "#3b82f6",
