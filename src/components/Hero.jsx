@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       style={{
-        paddingTop: "80px",
+        paddingTop: "100px",
 paddingBottom: "20px",
     display: "flex",
     alignItems: "center"
