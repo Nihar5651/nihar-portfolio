@@ -22,7 +22,7 @@ paddingBottom: "20px",
         <h1
           style={{
             color: "#3b82f6",
-            marginBottom: "10px"
+            marginBottom: "15px"
           }}
         >
           Nihar Navadiya
